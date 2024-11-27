@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 const dbConnection = () => {
   try {
     mongoose
-      .connect(`DB_URL`)
+      .connect(`mongodb+srv://Kanhu143:Kanhu143@uber.w2qan.mongodb.net/?retryWrites=true&w=majority&appName=uber`)
       .then(() => {
         console.log(` Mongoose Database connected successfully`);
       })

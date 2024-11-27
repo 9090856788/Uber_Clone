@@ -2,7 +2,7 @@ import dotenv from "dotenv";
 dotenv.config();
 import cors from "cors";
 import express from "express";
-import dbConnection from "./dbConnection/dbConnection";
+import dbConnection from "./dbConnection/dbConnection.js";
 
 const app = express();
 const PORT = 3000;
